@@ -1,0 +1,7 @@
+[versions]
+junit = "4.13.2"
+javafaker = "1.0.2"
+
+[libraries]
+junit = { module = "junit:junit", version.ref = "junit" }
+javafaker = { module = "com.github.javafaker:javafaker", version.ref = "javafaker" }

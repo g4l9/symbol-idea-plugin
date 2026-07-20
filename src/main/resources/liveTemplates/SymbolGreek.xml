@@ -1,0 +1,470 @@
+<templateSet group="SymbolGreek">
+    <template name="Alpha"
+              value="Α"
+              description="Alpha"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Beta"
+              value="Β"
+              description="Beta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Gamma"
+              value="Γ"
+              description="Gamma"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Delta"
+              value="Δ"
+              description="Delta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Epsilon"
+              value="Ε"
+              description="Epsilon"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Zeta"
+              value="Ζ"
+              description="Zeta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Eta"
+              value="Η"
+              description="Eta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Theta"
+              value="Θ"
+              description="Theta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Iota"
+              value="Ι"
+              description="Iota"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Kappa"
+              value="Κ"
+              description="Kappa"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Lambda"
+              value="Λ"
+              description="Lambda"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Mu"
+              value="Μ"
+              description="Mu"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Nu"
+              value="Ν"
+              description="Nu"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Xi"
+              value="Ξ"
+              description="Xi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Omicron"
+              value="Ο"
+              description="Omicron"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Pi"
+              value="Π"
+              description="Pi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Rho"
+              value="Ρ"
+              description="Rho"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Sigma"
+              value="Σ"
+              description="Sigma"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Tau"
+              value="Τ"
+              description="Tau"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Upsilon"
+              value="Υ"
+              description="Upsilon"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Phi"
+              value="Φ"
+              description="Phi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Chi"
+              value="Χ"
+              description="Chi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Psi"
+              value="Ψ"
+              description="Psi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="Omega"
+              value="Ω"
+              description="Omega"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="alpha"
+              value="α"
+              description="alpha"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="beta"
+              value="β"
+              description="beta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="gamma"
+              value="γ"
+              description="gamma"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="delta"
+              value="δ"
+              description="delta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="epsilon"
+              value="ε"
+              description="epsilon"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="zeta"
+              value="ζ"
+              description="zeta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="eta"
+              value="η"
+              description="eta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="theta"
+              value="θ"
+              description="theta"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="iota"
+              value="ι"
+              description="iota"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="kappa"
+              value="κ"
+              description="kappa"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="lambda"
+              value="λ"
+              description="lambda"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="mu"
+              value="μ"
+              description="mu"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="nu"
+              value="ν"
+              description="nu"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="xi"
+              value="ξ"
+              description="xi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="omicron"
+              value="ο"
+              description="omicron"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="pi"
+              value="π"
+              description="pi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="rho"
+              value="ρ"
+              description="rho"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="sigmaf"
+              value="ς"
+              description="sigmaf"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="sigma"
+              value="σ"
+              description="sigma"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="tau"
+              value="τ"
+              description="tau"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="upsilon"
+              value="υ"
+              description="upsilon"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="phi"
+              value="φ"
+              description="phi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="chi"
+              value="χ"
+              description="chi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="psi"
+              value="ψ"
+              description="psi"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="omega"
+              value="ω"
+              description="omega"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="thetasym"
+              value="ϑ"
+              description="thetasym"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="upsih"
+              value="ϒ"
+              description="upsih"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+    <template name="piv"
+              value="ϖ"
+              description="piv"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_GREEK" value="true"/>
+        </context>
+    </template>
+</templateSet>

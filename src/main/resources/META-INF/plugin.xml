@@ -1,0 +1,54 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>io.galagutskiy.symbol-idea-plugin</id>
+
+    <name><![CDATA[Spec & Math Symbols]]></name>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description>
+        <![CDATA[
+<h1>Spec &amp; Math symbols</h1>
+
+<br/>
+
+<a href="https://github.com/g4l9/symbol-idea-plugin/">GitHub</a> |
+<a href="https://github.com/g4l9/symbol-idea-plugin/issues">Issues</a>
+
+<br/>
+
+<a href="https://unicode-table.com/en/">Unicode symbols</a> |
+<a href="https://unicode.org/charts/PDF/U2200.pdf">Math symbols</a>
+
+<br/>
+
+<strong>Plugin that just include spec and math symbol for autocomplete</strong>
+
+<br/>
+At this moment plugin includes next symbol packs
+
+<ul>
+    <li><a href="https://unicode-table.com/en/sets/mathematical-signs/">Math</a> symbol pack</li>
+    <li>Lorem Ipsum</li>
+</ul>
+]]>
+    </description>
+    <vendor>g4l9</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <defaultLiveTemplates file="/liveTemplates/Symbol.xml"/>
+        <liveTemplateContext contextId="SYMBOL" implementation="com.github.g4l9.plugin.symbol.SymbolTemplate"/>
+        <defaultLiveTemplates file="/liveTemplates/SymbolMath.xml"/>
+        <liveTemplateContext contextId="SYMBOL_MATH" implementation="com.github.g4l9.plugin.symbol.SymbolMathTemplate"/>
+        <defaultLiveTemplates file="/liveTemplates/SymbolGreek.xml"/>
+        <liveTemplateContext contextId="SYMBOL_GREEK" implementation="com.github.g4l9.plugin.symbol.SymbolGreekTemplate"/>
+        <defaultLiveTemplates file="/liveTemplates/LoremIpsum.xml"/>
+        <liveTemplateContext contextId="LOREM_IPSUM" implementation="com.github.g4l9.plugin.symbol.LoremIpsumTemplate"/>
+        <liveTemplateMacro implementation="com.github.g4l9.plugin.symbol.FakeMacro"/>
+        <defaultLiveTemplates file="/liveTemplates/Fake.xml"/>
+        <liveTemplateContext contextId="FAKE" implementation="com.github.g4l9.plugin.symbol.FakeTemplate"/>
+    </extensions>
+
+</idea-plugin>

@@ -1,0 +1,3532 @@
+<templateSet group="Fake">
+    <template name="fake.hacker.abbreviation"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hacker.abbreviation&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hacker.adjective"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hacker.adjective&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hacker.noun"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hacker.noun&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hacker.ingverb"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hacker.ingverb&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hacker.verb"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hacker.verb&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.idNumber.ssnValid"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.idNumber.ssnValid&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.idNumber.validSvSeSsn"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.idNumber.validSvSeSsn&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.idNumber.invalidSvSeSsn"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.idNumber.invalidSvSeSsn&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.idNumber.valid"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.idNumber.valid&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.idNumber.invalid"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.idNumber.invalid&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.color.hex"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.color.hex&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.color.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.color.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.commerce.color"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.commerce.color&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.commerce.department"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.commerce.department&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.commerce.productName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.commerce.productName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.commerce.material"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.commerce.material&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.commerce.price"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.commerce.price&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.commerce.promotionCode"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.commerce.promotionCode&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.currency.code"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.currency.code&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.currency.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.currency.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.crypto.sha512"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.crypto.sha512&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.crypto.md5"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.crypto.md5&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.crypto.sha1"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.crypto.sha1&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.crypto.sha256"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.crypto.sha256&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.url"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.url&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.industry"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.industry&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.profession"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.profession&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.buzzword"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.buzzword&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.suffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.suffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.catchPhrase"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.catchPhrase&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.bs"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.bs&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.logo"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.logo&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.domainName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.domainName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.domainSuffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.domainSuffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.company.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.company.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.book.author"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.book.author&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.book.title"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.book.title&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.book.publisher"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.book.publisher&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.book.genre"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.book.genre&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.music.genre"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.music.genre&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.music.instrument"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.music.instrument&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.music.chord"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.music.chord&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.music.key"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.music.key&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.business.creditCardNumber"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.business.creditCardNumber&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.business.creditCardType"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.business.creditCardType&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.business.creditCardExpiry"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.business.creditCardExpiry&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.pokemon.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.pokemon.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.pokemon.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.pokemon.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.avatar"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.avatar&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.url"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.url&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.domainName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.domainName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.domainSuffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.domainSuffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.emailAddress"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.emailAddress&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.safeEmailAddress"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.safeEmailAddress&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.domainWord"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.domainWord&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.image"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.image&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.password"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.password&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.macAddress"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.macAddress&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.ipV4Address"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.ipV4Address&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.privateIpV4Address"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.privateIpV4Address&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.publicIpV4Address"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.publicIpV4Address&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.ipV4Cidr"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.ipV4Cidr&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.ipV6Address"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.ipV6Address&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.ipV6Cidr"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.ipV6Cidr&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.slug"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.slug&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.uuid"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.uuid&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.internet.userAgentAny"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.internet.userAgentAny&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lorem.word"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lorem.word&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lorem.sentence"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lorem.sentence&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lorem.paragraph"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lorem.paragraph&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lorem.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lorem.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lorem.characters"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lorem.characters&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lorem.words"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lorem.words&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.aviation.aircraft"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.aviation.aircraft&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.aviation.airport"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.aviation.airport&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.aviation.METAR"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.aviation.METAR&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.app.author"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.app.author&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.app.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.app.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.app.version"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.app.version&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.ancient.primordial"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.ancient.primordial&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.ancient.god"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.ancient.god&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.ancient.titan"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.ancient.titan&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.ancient.hero"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.ancient.hero&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.avatar.image"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.avatar.image&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.artist.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.artist.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.phoneNumber.phoneNumber"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.phoneNumber.phoneNumber&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.phoneNumber.cellPhone"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.phoneNumber.cellPhone&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.phoneNumber.extension"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.phoneNumber.extension&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.phoneNumber.subscriberNumber"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.phoneNumber.subscriberNumber&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.chuckNorris.fact"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.chuckNorris.fact&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.isbnGs1"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.isbnGs1&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.isbnGroup"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.isbnGroup&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.isbnRegistrant"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.isbnRegistrant&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.isbn10"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.isbn10&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.isbn13"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.isbn13&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.imei"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.imei&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.ean8"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.ean8&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.gtin8"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.gtin8&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.ean13"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.ean13&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.gtin13"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.gtin13&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.code.asin"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.code.asin&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.finance.creditCard"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.finance.creditCard&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.finance.bic"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.finance.bic&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.finance.iban"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.finance.iban&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.finance.randomCreditCardType"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.finance.randomCreditCardType&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.finance.createCountryCodeToBasicBankAccountNumberPatternMap"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.finance.createCountryCodeToBasicBankAccountNumberPatternMap&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.dish"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.dish&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.fruit"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.fruit&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.sushi"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.sushi&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.ingredient"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.ingredient&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.spice"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.spice&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.vegetable"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.vegetable&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.food.measurement"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.food.measurement&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.gameOfThrones.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.gameOfThrones.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.gameOfThrones.house"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.gameOfThrones.house&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.gameOfThrones.city"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.gameOfThrones.city&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.gameOfThrones.dragon"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.gameOfThrones.dragon&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.gameOfThrones.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.gameOfThrones.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.demographic.educationalAttainment"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.demographic.educationalAttainment&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.demographic.demonym"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.demographic.demonym&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.demographic.sex"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.demographic.sex&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.demographic.race"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.demographic.race&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.demographic.maritalStatus"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.demographic.maritalStatus&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.size"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.size&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.memePhrase"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.memePhrase&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.age"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.age&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.sound"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.sound&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.breed"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.breed&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.coatLength"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.coatLength&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dog.gender"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dog.gender&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.educator.university"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.educator.university&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.educator.secondarySchool"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.educator.secondarySchool&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.educator.course"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.educator.course&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.educator.campus"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.educator.campus&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.city"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.city&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.dragon"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.dragon&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.region"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.region&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.lastName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.lastName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.firstName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.firstName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.race"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.race&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.elderScrolls.creature"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.elderScrolls.creature&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.shakespeare.hamletQuote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.shakespeare.hamletQuote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.shakespeare.asYouLikeItQuote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.shakespeare.asYouLikeItQuote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.shakespeare.kingRichardIIIQuote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.shakespeare.kingRichardIIIQuote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.shakespeare.romeoAndJulietQuote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.shakespeare.romeoAndJulietQuote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.custom"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.custom&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.nature"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.nature&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.foodAndDrink"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.foodAndDrink&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.activity"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.activity&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.people"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.people&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.celebration"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.celebration&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.travelAndPlaces"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.travelAndPlaces&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.objectsAndSymbols"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.objectsAndSymbols&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.slackEmoji.emoji"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.slackEmoji.emoji&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.company"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.company&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.starCluster"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.starCluster&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.star"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.star&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.planet"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.planet&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.moon"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.moon&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.galaxy"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.galaxy&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.nebula"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.nebula&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.constellation"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.constellation&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.agency"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.agency&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.agencyAbbreviation"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.agencyAbbreviation&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.nasaSpaceCraft"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.nasaSpaceCraft&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.distanceMeasurement"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.distanceMeasurement&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.space.meteorite"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.space.meteorite&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.superhero.power"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.superhero.power&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.superhero.descriptor"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.superhero.descriptor&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.superhero.suffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.superhero.suffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.superhero.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.superhero.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.superhero.prefix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.superhero.prefix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.bool.bool"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.bool.bool&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.team.sport"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.team.sport&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.team.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.team.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.team.state"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.team.state&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.team.creature"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.team.creature&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.beer.style"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.beer.style&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.beer.yeast"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.beer.yeast&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.beer.hop"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.beer.hop&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.beer.malt"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.beer.malt&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.beer.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.beer.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.university.suffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.university.suffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.university.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.university.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.university.prefix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.university.prefix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.cat.registry"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.cat.registry&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.cat.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.cat.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.cat.breed"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.cat.breed&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.stock.nsdqSymbol"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.stock.nsdqSymbol&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.stock.nyseSymbol"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.stock.nyseSymbol&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lordOfTheRings.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lordOfTheRings.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lordOfTheRings.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lordOfTheRings.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.zelda.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.zelda.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.zelda.game"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.zelda.game&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.harryPotter.book"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.harryPotter.book&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.harryPotter.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.harryPotter.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.harryPotter.spell"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.harryPotter.spell&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.harryPotter.house"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.harryPotter.house&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.harryPotter.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.harryPotter.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.harryPotter.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.harryPotter.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.rockBand.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.rockBand.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.esports.team"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.esports.team&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.esports.game"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.esports.game&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.esports.player"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.esports.player&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.esports.event"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.esports.event&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.esports.league"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.esports.league&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.friends.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.friends.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.friends.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.friends.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.friends.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.friends.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hipster.word"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hipster.word&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.job.title"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.job.title&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.job.seniority"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.job.seniority&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.job.keySkills"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.job.keySkills&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.job.position"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.job.position&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.job.field"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.job.field&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.twinPeaks.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.twinPeaks.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.twinPeaks.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.twinPeaks.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.twinPeaks.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.twinPeaks.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.rickAndMorty.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.rickAndMorty.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.rickAndMorty.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.rickAndMorty.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.rickAndMorty.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.rickAndMorty.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.yoda.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.yoda.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.matz.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.matz.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.witcher.witcher"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.witcher.witcher&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.witcher.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.witcher.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.witcher.monster"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.witcher.monster&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.witcher.school"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.witcher.school&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.witcher.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.witcher.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.witcher.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.witcher.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dragonBall.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dragonBall.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.funnyName.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.funnyName.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.planet"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.planet&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.specie"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.specie&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.marvinQuote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.marvinQuote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.starship"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.starship&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hitchhikersGuideToTheGalaxy.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hitchhikersGuideToTheGalaxy.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hobbit.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hobbit.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hobbit.thorinsCompany"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hobbit.thorinsCompany&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hobbit.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hobbit.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.hobbit.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.hobbit.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.howIMetYourMother.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.howIMetYourMother.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.howIMetYourMother.highFive"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.howIMetYourMother.highFive&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.howIMetYourMother.catchPhrase"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.howIMetYourMother.catchPhrase&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.howIMetYourMother.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.howIMetYourMother.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.leagueOfLegends.summonerSpell"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.leagueOfLegends.summonerSpell&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.leagueOfLegends.rank"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.leagueOfLegends.rank&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.leagueOfLegends.champion"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.leagueOfLegends.champion&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.leagueOfLegends.masteries"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.leagueOfLegends.masteries&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.leagueOfLegends.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.leagueOfLegends.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.leagueOfLegends.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.leagueOfLegends.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.overwatch.hero"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.overwatch.hero&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.overwatch.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.overwatch.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.overwatch.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.overwatch.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.robin.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.robin.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.starTrek.villain"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.starTrek.villain&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.starTrek.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.starTrek.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.starTrek.specie"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.starTrek.specie&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.starTrek.location"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.starTrek.location&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.weather.description"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.weather.description&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.weather.temperatureCelsius"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.weather.temperatureCelsius&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.weather.temperatureFahrenheit"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.weather.temperatureFahrenheit&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lebowski.actor"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lebowski.actor&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lebowski.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lebowski.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.lebowski.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.lebowski.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.medical.medicineName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.medical.medicineName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.medical.symptoms"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.medical.symptoms&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.medical.diseaseName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.medical.diseaseName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.medical.hospitalName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.medical.hospitalName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.animal.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.animal.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.backToTheFuture.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.backToTheFuture.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.backToTheFuture.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.backToTheFuture.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.backToTheFuture.date"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.backToTheFuture.date&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.princessBride.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.princessBride.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.princessBride.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.princessBride.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.buffy.episodes"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.buffy.episodes&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.buffy.celebrities"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.buffy.celebrities&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.buffy.bigBads"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.buffy.bigBads&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.buffy.quotes"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.buffy.quotes&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.buffy.characters"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.buffy.characters&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.any"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.any&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.sibling"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.sibling&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.inLaw"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.inLaw&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.extended"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.extended&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.spouse"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.spouse&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.direct"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.direct&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.relationships.parent"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.relationships.parent&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.nation.nationality"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.nation.nationality&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.nation.capitalCity"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.nation.capitalCity&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.nation.flag"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.nation.flag&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.nation.language"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.nation.language&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dune.title"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dune.title&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dune.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dune.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dune.saying"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dune.saying&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dune.planet"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dune.planet&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.dune.quote"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.dune.quote&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.aquaTeenHungerForce.character"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.aquaTeenHungerForce.character&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.programmingLanguage.creator"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.programmingLanguage.creator&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.programmingLanguage.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.programmingLanguage.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.title"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.title&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.suffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.suffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.nameWithMiddle"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.nameWithMiddle&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.fullName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.fullName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.bloodGroup"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.bloodGroup&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.prefix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.prefix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.username"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.username&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.lastName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.lastName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.name.firstName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.name.firstName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.file.extension"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.file.extension&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.file.mimeType"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.file.mimeType&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.file.fileName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.file.fileName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.countryCode"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.countryCode&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.city"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.city&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.cityName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.cityName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.streetName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.streetName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.streetAddressNumber"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.streetAddressNumber&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.streetAddress"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.streetAddress&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.zipCode"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.zipCode&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.secondaryAddress"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.secondaryAddress&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.stateAbbr"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.stateAbbr&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.streetSuffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.streetSuffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.streetPrefix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.streetPrefix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.citySuffix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.citySuffix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.cityPrefix"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.cityPrefix&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.latitude"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.latitude&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.longitude"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.longitude&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.timeZone"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.timeZone&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.buildingNumber"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.buildingNumber&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.fullAddress"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.fullAddress&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.state"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.state&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.country"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.country&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.lastName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.lastName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.address.firstName"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.address.firstName&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.random.nextLong"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.random.nextLong&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.random.nextBoolean"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.random.nextBoolean&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.random.hex"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.random.hex&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.random.nextDouble"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.random.nextDouble&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.number.randomDigit"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.number.randomDigit&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.number.randomDigitNotZero"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.number.randomDigitNotZero&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.number.randomNumber"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.number.randomNumber&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.number.digit"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.number.digit&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.currency"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.currency&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.flag"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.flag&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.countryCode2"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.countryCode2&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.capital"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.capital&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.countryCode3"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.countryCode3&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.currencyCode"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.currencyCode&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.country.name"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.country.name&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+    <template name="fake.date.birthday"
+              value="$FAKE$"
+              description=""
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="FAKE" expression="fakeMacro(&quot;fake.date.birthday&quot;)" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="FAKE" value="true"/>
+        </context>
+    </template>
+</templateSet>

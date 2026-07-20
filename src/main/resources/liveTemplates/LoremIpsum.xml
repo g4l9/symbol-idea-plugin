@@ -1,0 +1,47 @@
+<templateSet group="LoremIpsum">
+    <template name="loremIpsum5"
+              value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet dictum sit amet justo donec enim diam vulputate. Enim sed faucibus turpis in eu mi. Nibh cras pulvinar mattis nunc sed blandit libero. Cras tincidunt lobortis feugiat vivamus at augue eget arcu."
+              description="Lorem Ipsum 5 sentences"
+              toReformat="true"
+              toShortenFQNames="false">
+        <context>
+            <option name="LOREM_IPSUM" value="true"/>
+        </context>
+    </template>
+    <template name="loremIpsum10"
+              value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada. Pharetra pharetra massa massa ultricies. Congue nisi vitae suscipit tellus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Nam aliquam sem et tortor consequat id porta. Quam quisque id diam vel. Donec massa sapien faucibus et molestie. Sed odio morbi quis commodo odio aenean sed. Amet est placerat in egestas erat."
+              description="Lorem Ipsum 10 sentences"
+              toReformat="true"
+              toShortenFQNames="false">
+        <context>
+            <option name="LOREM_IPSUM" value="true"/>
+        </context>
+    </template>
+    <template name="loremIpsum20"
+              value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Leo in vitae turpis massa sed elementum. Platea dictumst vestibulum rhoncus est pellentesque elit. A arcu cursus vitae congue mauris rhoncus aenean vel elit. Morbi tristique senectus et netus et malesuada. Libero volutpat sed cras ornare arcu dui. Nunc sed blandit libero volutpat. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. Morbi tristique senectus et netus et. Eu consequat ac felis donec et odio pellentesque diam. Eget egestas purus viverra accumsan in nisl. Neque volutpat ac tincidunt vitae. Vel orci porta non pulvinar neque laoreet suspendisse. Amet commodo nulla facilisi nullam vehicula ipsum. Vitae elementum curabitur vitae nunc sed velit dignissim. Pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Augue eget arcu dictum varius."
+              description="Lorem Ipsum 20 sentences"
+              toReformat="true"
+              toShortenFQNames="false">
+        <context>
+            <option name="LOREM_IPSUM" value="true"/>
+        </context>
+    </template>
+    <template name="loremIpsum40"
+              value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tortor id aliquet lectus proin nibh nisl condimentum. Turpis cursus in hac habitasse. Urna et pharetra pharetra massa. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Gravida neque convallis a cras semper auctor. Imperdiet dui accumsan sit amet. Orci sagittis eu volutpat odio facilisis mauris sit amet. Molestie at elementum eu facilisis sed odio morbi quis commodo. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Consequat mauris nunc congue nisi. Eget velit aliquet sagittis id consectetur purus. Leo urna molestie at elementum. Ut enim blandit volutpat maecenas volutpat blandit aliquam. A erat nam at lectus urna duis convallis convallis tellus. Ut placerat orci nulla pellentesque dignissim enim sit amet. Consequat nisl vel pretium lectus quam id leo. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. In est ante in nibh mauris cursus. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Placerat duis ultricies lacus sed turpis. Quisque sagittis purus sit amet volutpat. Pharetra massa massa ultricies mi quis. Proin libero nunc consequat interdum varius. Ut faucibus pulvinar elementum integer. Risus nec feugiat in fermentum posuere. In dictum non consectetur a erat nam at lectus. Blandit massa enim nec dui nunc. Rhoncus urna neque viverra justo nec ultrices dui sapien eget. Ullamcorper sit amet risus nullam eget. Augue neque gravida in fermentum et sollicitudin ac orci. Senectus et netus et malesuada fames. Sed risus ultricies tristique nulla aliquet enim tortor at. Lacus viverra vitae congue eu consequat ac. Nec ultrices dui sapien eget mi. Vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Nulla facilisi cras fermentum odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Tellus elementum sagittis vitae et."
+              description="Lorem Ipsum 40 sentences"
+              toReformat="true"
+              toShortenFQNames="false">
+        <context>
+            <option name="LOREM_IPSUM" value="true"/>
+        </context>
+    </template>
+    <template name="loremIpsum80"
+              value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis. Aenean pharetra magna ac placerat. Tellus in metus vulputate eu scelerisque felis. Pellentesque massa placerat duis ultricies lacus sed. Cras semper auctor neque vitae tempus quam pellentesque. Purus in mollis nunc sed id semper risus in hendrerit. Scelerisque eu ultrices vitae auctor eu augue. Nisl vel pretium lectus quam. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Mauris cursus mattis molestie a iaculis at erat pellentesque. Placerat vestibulum lectus mauris ultrices eros in cursus turpis. Nunc non blandit massa enim nec dui nunc mattis enim. Sociis natoque penatibus et magnis dis parturient montes. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. Fermentum dui faucibus in ornare quam viverra orci sagittis eu. In dictum non consectetur a erat nam. Massa tempor nec feugiat nisl pretium fusce id velit ut. Faucibus a pellentesque sit amet porttitor. Montes nascetur ridiculus mus mauris vitae ultricies leo. Non curabitur gravida arcu ac tortor. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Feugiat nisl pretium fusce id velit. A pellentesque sit amet porttitor. Ultrices in iaculis nunc sed augue lacus viverra vitae. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Nunc id cursus metus aliquam eleifend mi in nulla. In fermentum et sollicitudin ac orci phasellus. Vulputate enim nulla aliquet porttitor. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. In ornare quam viverra orci sagittis eu. Mi quis hendrerit dolor magna eget. Neque volutpat ac tincidunt vitae semper. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Viverra justo nec ultrices dui sapien eget mi proin. Enim diam vulputate ut pharetra sit amet. Morbi tristique senectus et netus. Tincidunt tortor aliquam nulla facilisi. Pretium nibh ipsum consequat nisl vel pretium. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Eu feugiat pretium nibh ipsum. Tempus iaculis urna id volutpat lacus. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Sagittis id consectetur purus ut faucibus pulvinar. Laoreet id donec ultrices tincidunt. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Massa eget egestas purus viverra accumsan. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Diam donec adipiscing tristique risus nec. Sollicitudin tempor id eu nisl nunc mi ipsum. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Aenean et tortor at risus viverra. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Eget est lorem ipsum dolor sit amet consectetur. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Sagittis id consectetur purus ut faucibus pulvinar. Pellentesque nec nam aliquam sem et. At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Congue nisi vitae suscipit tellus. Etiam non quam lacus suspendisse faucibus interdum. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Facilisis leo vel fringilla est. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Turpis egestas pretium aenean pharetra magna ac. Consequat mauris nunc congue nisi vitae suscipit. Et leo duis ut diam quam. Purus viverra accumsan in nisl. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Scelerisque fermentum dui faucibus in. Faucibus in ornare quam viverra orci sagittis. Mi tempus imperdiet nulla malesuada pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Mattis enim ut tellus elementum sagittis. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Sit amet est placerat in egestas. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Felis bibendum ut tristique et egestas. Est ante in nibh mauris cursus mattis molestie a. Nunc congue nisi vitae suscipit."
+              description="Lorem Ipsum 80 sentences"
+              toReformat="true"
+              toShortenFQNames="false">
+        <context>
+            <option name="LOREM_IPSUM" value="true"/>
+        </context>
+    </template>
+</templateSet>
