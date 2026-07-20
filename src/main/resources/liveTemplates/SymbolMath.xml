@@ -1,0 +1,2387 @@
+<templateSet group="SymbolMath">
+    <template name="symbolForAll"
+              value="∀"
+              description="∀"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolComplement"
+              value="∁"
+              description="∁"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPartialDifferential"
+              value="∂"
+              description="∂"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolThereExists"
+              value="∃"
+              description="∃"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolThereDoesNotExist"
+              value="∄"
+              description="∄"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEmptySet"
+              value="∅"
+              description="∅"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolIncrement"
+              value="∆"
+              description="∆"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNabla"
+              value="∇"
+              description="∇"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOf"
+              value="∈"
+              description="∈"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotanElementOf"
+              value="∉"
+              description="∉"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSmallElementOf"
+              value="∊"
+              description="∊"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContainsAsMember"
+              value="∋"
+              description="∋"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotContainAsMember"
+              value="∌"
+              description="∌"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSmallContainsAsMember"
+              value="∍"
+              description="∍"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEndOfProof"
+              value="∎"
+              description="∎"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNAryProduct"
+              value="∏"
+              description="∏"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNAryCoproduct"
+              value="∐"
+              description="∐"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNArySummation"
+              value="∑"
+              description="∑"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMinusSign"
+              value="−"
+              description="−"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMinusorPlusSign"
+              value="∓"
+              description="∓"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDotPlus"
+              value="∔"
+              description="∔"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDivisionSlash"
+              value="∕"
+              description="∕"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSetMinus"
+              value="∖"
+              description="∖"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAsteriskOperator"
+              value="∗"
+              description="∗"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRingOperator"
+              value="∘"
+              description="∘"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolBulletOperator"
+              value="∙"
+              description="∙"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareRoot"
+              value="√"
+              description="√"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCubeRoot"
+              value="∛"
+              description="∛"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolFourthRoot"
+              value="∜"
+              description="∜"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolProportionalTo"
+              value="∝"
+              description="∝"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolInfinity"
+              value="∞"
+              description="∞"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightAngle"
+              value="∟"
+              description="∟"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAngle"
+              value="∠"
+              description="∠"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMeasuredAngle"
+              value="∡"
+              description="∡"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSphericalAngle"
+              value="∢"
+              description="∢"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDivides"
+              value="∣"
+              description="∣"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotDivide"
+              value="∤"
+              description="∤"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolParallelTo"
+              value="∥"
+              description="∥"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotParallelTo"
+              value="∦"
+              description="∦"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLogicalAnd"
+              value="∧"
+              description="∧"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLogicalOr"
+              value="∨"
+              description="∨"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolIntersection"
+              value="∩"
+              description="∩"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolUnion"
+              value="∪"
+              description="∪"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolIntegral"
+              value="∫"
+              description="∫"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoubleIntegral"
+              value="∬"
+              description="∬"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolTripleIntegral"
+              value="∭"
+              description="∭"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContourIntegral"
+              value="∮"
+              description="∮"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSurfaceIntegral"
+              value="∯"
+              description="∯"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolVolumeIntegral"
+              value="∰"
+              description="∰"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolClockwiseIntegral"
+              value="∱"
+              description="∱"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolClockwiseContourIntegral"
+              value="∲"
+              description="∲"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAnticlockwiseContourIntegral"
+              value="∳"
+              description="∳"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolTherefore"
+              value="∴"
+              description="∴"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolBecause"
+              value="∵"
+              description="∵"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRatio"
+              value="∶"
+              description="∶"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolProportion"
+              value="∷"
+              description="∷"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDotMinus"
+              value="∸"
+              description="∸"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolExcess"
+              value="∹"
+              description="∹"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGeometricProportion"
+              value="∺"
+              description="∺"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolHomothetic"
+              value="∻"
+              description="∻"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolTildeOperator"
+              value="∼"
+              description="∼"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolReversedTilde"
+              value="∽"
+              description="∽"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolInvertedLazyS"
+              value="∾"
+              description="∾"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSineWave"
+              value="∿"
+              description="∿"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolWreathProduct"
+              value="≀"
+              description="≀"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotTilde"
+              value="≁"
+              description="≁"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMinusTilde"
+              value="≂"
+              description="≂"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAsymptoticallyEqualTo"
+              value="≃"
+              description="≃"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotAsymptoticallyEqualTo"
+              value="≄"
+              description="≄"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolApproximatelyEqualTo"
+              value="≅"
+              description="≅"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolApproximatelyButNotActuallyEqualTo"
+              value="≆"
+              description="≆"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherApproximatelynorActuallyEqualTo"
+              value="≇"
+              description="≇"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAlmostEqualTo"
+              value="≈"
+              description="≈"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotAlmostEqualTo"
+              value="≉"
+              description="≉"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAlmostEqualOrEqualTo"
+              value="≊"
+              description="≊"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolTripleTilde"
+              value="≋"
+              description="≋"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAllEqualTo"
+              value="≌"
+              description="≌"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEquivalentTo"
+              value="≍"
+              description="≍"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGeometricallyEquivalentTo"
+              value="≎"
+              description="≎"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDifferenceBetween"
+              value="≏"
+              description="≏"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolApproachesTheLimit"
+              value="≐"
+              description="≐"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGeometricallyEqualTo"
+              value="≑"
+              description="≑"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolApproximatelyEqualToOrTheImageOf"
+              value="≒"
+              description="≒"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolImageOfOrApproximatelyEqualTo"
+              value="≓"
+              description="≓"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolColonEquals"
+              value="≔"
+              description="≔"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualsColon"
+              value="≕"
+              description="≕"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRingInEqualTo"
+              value="≖"
+              description="≖"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRingEqualTo"
+              value="≗"
+              description="≗"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCorrespondsTo"
+              value="≘"
+              description="≘"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEstimates"
+              value="≙"
+              description="≙"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEquiangularTo"
+              value="≚"
+              description="≚"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolStarEquals"
+              value="≛"
+              description="≛"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDeltaEqualTo"
+              value="≜"
+              description="≜"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualToByDefinition"
+              value="≝"
+              description="≝"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMeasuredBy"
+              value="≞"
+              description="≞"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolQuestionedEqualTo"
+              value="≟"
+              description="≟"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotEqualTo"
+              value="≠"
+              description="≠"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolIdenticalTo"
+              value="≡"
+              description="≡"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotIdenticalTo"
+              value="≢"
+              description="≢"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolStrictlyEquivalentTo"
+              value="≣"
+              description="≣"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanOrEqualTo"
+              value="≤"
+              description="≤"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanOrEqualTo"
+              value="≥"
+              description="≥"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanOverEqualTo"
+              value="≦"
+              description="≦"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanOverEqualTo"
+              value="≧"
+              description="≧"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanButNotEqualTo"
+              value="≨"
+              description="≨"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanButNotEqualTo"
+              value="≩"
+              description="≩"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMuchLessThan"
+              value="≪"
+              description="≪"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMuchGreaterThan"
+              value="≫"
+              description="≫"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolBetween"
+              value="≬"
+              description="≬"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotEquivalentTo"
+              value="≭"
+              description="≭"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotLessThan"
+              value="≮"
+              description="≮"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotGreaterThan"
+              value="≯"
+              description="≯"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherLessThanOrEqualTo"
+              value="≰"
+              description="≰"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherGreaterThanOrEqualTo"
+              value="≱"
+              description="≱"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanOrEquivalentTo"
+              value="≲"
+              description="≲"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanOrEquivalentTo"
+              value="≳"
+              description="≳"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherLessThanOrEquivalentTo"
+              value="≴"
+              description="≴"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherGreaterThanOrEquivalentTo"
+              value="≵"
+              description="≵"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanOrGreaterThan"
+              value="≶"
+              description="≶"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanOrLessThan"
+              value="≷"
+              description="≷"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherLessThanOrGreaterThan"
+              value="≸"
+              description="≸"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitherGreaterThanOrLessThan"
+              value="≹"
+              description="≹"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPrecedes"
+              value="≺"
+              description="≺"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSucceeds"
+              value="≻"
+              description="≻"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPrecedesOrEqualTo"
+              value="≼"
+              description="≼"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSucceedsOrEqualTo"
+              value="≽"
+              description="≽"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPrecedesOrEquivalentTo"
+              value="≾"
+              description="≾"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSucceedsOrEquivalentTo"
+              value="≿"
+              description="≿"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotPrecede"
+              value="⊀"
+              description="⊀"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotSucceed"
+              value="⊁"
+              description="⊁"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSubsetOf"
+              value="⊂"
+              description="⊂"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSupersetOf"
+              value="⊃"
+              description="⊃"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotaSubsetOf"
+              value="⊄"
+              description="⊄"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotaSupersetOf"
+              value="⊅"
+              description="⊅"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSubsetOfOrEqualTo"
+              value="⊆"
+              description="⊆"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSupersetOfOrEqualTo"
+              value="⊇"
+              description="⊇"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitheraSubsetofnOrEqualTo"
+              value="⊈"
+              description="⊈"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNeitheraSupersetofnOrEqualTo"
+              value="⊉"
+              description="⊉"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSubsetOfWithNotEqualTo"
+              value="⊊"
+              description="⊊"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSupersetOfWithNotEqualTo"
+              value="⊋"
+              description="⊋"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMultiset"
+              value="⊌"
+              description="⊌"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMultisetMultiplication"
+              value="⊍"
+              description="⊍"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMultisetUnion"
+              value="⊎"
+              description="⊎"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareImageOf"
+              value="⊏"
+              description="⊏"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareOriginalOf"
+              value="⊐"
+              description="⊐"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareImageOfOrEqualTo"
+              value="⊑"
+              description="⊑"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareOriginalOfOrEqualTo"
+              value="⊒"
+              description="⊒"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareCap"
+              value="⊓"
+              description="⊓"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareCup"
+              value="⊔"
+              description="⊔"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledPlus"
+              value="⊕"
+              description="⊕"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledMinus"
+              value="⊖"
+              description="⊖"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledTimes"
+              value="⊗"
+              description="⊗"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledDivisionSlash"
+              value="⊘"
+              description="⊘"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledDotOperator"
+              value="⊙"
+              description="⊙"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledRingOperator"
+              value="⊚"
+              description="⊚"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledAsteriskOperator"
+              value="⊛"
+              description="⊛"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledEquals"
+              value="⊜"
+              description="⊜"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCircledDash"
+              value="⊝"
+              description="⊝"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquaredPlus"
+              value="⊞"
+              description="⊞"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquaredMinus"
+              value="⊟"
+              description="⊟"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquaredTimes"
+              value="⊠"
+              description="⊠"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquaredDotOperator"
+              value="⊡"
+              description="⊡"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightTack"
+              value="⊢"
+              description="⊢"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftTack"
+              value="⊣"
+              description="⊣"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDownTack"
+              value="⊤"
+              description="⊤"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolUpTack"
+              value="⊥"
+              description="⊥"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolAssertion"
+              value="⊦"
+              description="⊦"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolModels"
+              value="⊧"
+              description="⊧"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolTrue"
+              value="⊨"
+              description="⊨"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolForces"
+              value="⊩"
+              description="⊩"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolTripleVerticalBarRightTurnstile"
+              value="⊪"
+              description="⊪"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoubleVerticalBarDoubleRightTurnstile"
+              value="⊫"
+              description="⊫"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotProve"
+              value="⊬"
+              description="⊬"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotTrue"
+              value="⊭"
+              description="⊭"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotForce"
+              value="⊮"
+              description="⊮"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNegatedDoubleVerticalBarDoubleRightTurnstile"
+              value="⊯"
+              description="⊯"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPrecedesUnderRelation"
+              value="⊰"
+              description="⊰"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSucceedsUnderRelation"
+              value="⊱"
+              description="⊱"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNormalSubgroupOf"
+              value="⊲"
+              description="⊲"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContainsAsNormalSubgroup"
+              value="⊳"
+              description="⊳"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNormalSubgroupOfOrEqualTo"
+              value="⊴"
+              description="⊴"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContainsAsNormalSubgroupOrEqualTo"
+              value="⊵"
+              description="⊵"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolOriginalOf"
+              value="⊶"
+              description="⊶"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolImageOf"
+              value="⊷"
+              description="⊷"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMultimap"
+              value="⊸"
+              description="⊸"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolHermitianConjugateMatrix"
+              value="⊹"
+              description="⊹"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolIntercalate"
+              value="⊺"
+              description="⊺"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolXor"
+              value="⊻"
+              description="⊻"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNand"
+              value="⊼"
+              description="⊼"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNor"
+              value="⊽"
+              description="⊽"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightAnglewithArc"
+              value="⊾"
+              description="⊾"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightTriangle"
+              value="⊿"
+              description="⊿"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNAryLogicalAnd"
+              value="⋀"
+              description="⋀"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNAryLogicalOr"
+              value="⋁"
+              description="⋁"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNAryIntersection"
+              value="⋂"
+              description="⋂"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNAryUnion"
+              value="⋃"
+              description="⋃"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDiamondOperator"
+              value="⋄"
+              description="⋄"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDotOperator"
+              value="⋅"
+              description="⋅"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolStarOperator"
+              value="⋆"
+              description="⋆"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDivisionTimes"
+              value="⋇"
+              description="⋇"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolBowtie"
+              value="⋈"
+              description="⋈"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftNormalFactorSemidirectProduct"
+              value="⋉"
+              description="⋉"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightNormalFactorSemidirectProduct"
+              value="⋊"
+              description="⋊"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftSemidirectProduct"
+              value="⋋"
+              description="⋋"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightSemidirectProduct"
+              value="⋌"
+              description="⋌"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolReversedTildeEquals"
+              value="⋍"
+              description="⋍"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCurlyLogicalOr"
+              value="⋎"
+              description="⋎"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolCurlyLogicalAnd"
+              value="⋏"
+              description="⋏"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoubleSubset"
+              value="⋐"
+              description="⋐"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoubleSuperset"
+              value="⋑"
+              description="⋑"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoubleIntersection"
+              value="⋒"
+              description="⋒"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoubleUnion"
+              value="⋓"
+              description="⋓"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPitchfork"
+              value="⋔"
+              description="⋔"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualAndParallelTo"
+              value="⋕"
+              description="⋕"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanWithDot"
+              value="⋖"
+              description="⋖"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanWithDot"
+              value="⋗"
+              description="⋗"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolVeryMuchLessThan"
+              value="⋘"
+              description="⋘"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolVeryMuchGreaterThan"
+              value="⋙"
+              description="⋙"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanEqualToOrGreaterThan"
+              value="⋚"
+              description="⋚"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanEqualToOrLessThan"
+              value="⋛"
+              description="⋛"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualToOrLessThan"
+              value="⋜"
+              description="⋜"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualToOrGreaterThan"
+              value="⋝"
+              description="⋝"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualToOrPrecedes"
+              value="⋞"
+              description="⋞"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolEqualToOrSucceeds"
+              value="⋟"
+              description="⋟"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotPrecedeOrEqual"
+              value="⋠"
+              description="⋠"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotSucceedOrEqual"
+              value="⋡"
+              description="⋡"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotSquareImageOfOrEqualTo"
+              value="⋢"
+              description="⋢"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotSquareOriginalOfOrEqualTo"
+              value="⋣"
+              description="⋣"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareImageOfOrNotEqualTo"
+              value="⋤"
+              description="⋤"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSquareOriginalOfOrNotEqualTo"
+              value="⋥"
+              description="⋥"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLessThanButNotEquivalentTo"
+              value="⋦"
+              description="⋦"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolGreaterThanButNotEquivalentTo"
+              value="⋧"
+              description="⋧"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolPrecedesButNotEquivalentTo"
+              value="⋨"
+              description="⋨"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSucceedsButNotEquivalentTo"
+              value="⋩"
+              description="⋩"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotNormalSubgroupOf"
+              value="⋪"
+              description="⋪"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotContainAsNormalSubgroup"
+              value="⋫"
+              description="⋫"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNotNormalSubgroupOfOrEqualTo"
+              value="⋬"
+              description="⋬"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDoesNotContainAsNormalSubgroupOrEqual"
+              value="⋭"
+              description="⋭"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolVerticalEllipsis"
+              value="⋮"
+              description="⋮"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolMidlineHorizontalEllipsis"
+              value="⋯"
+              description="⋯"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolUpRightDiagonalEllipsis"
+              value="⋰"
+              description="⋰"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolDownRightDiagonalEllipsis"
+              value="⋱"
+              description="⋱"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOfWithLongHorizontalStroke"
+              value="⋲"
+              description="⋲"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOfWithVerticalBarAtEndOfHorizontalStroke"
+              value="⋳"
+              description="⋳"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSmallElementOfWithVerticalBarAtEndOfHorizontalStroke"
+              value="⋴"
+              description="⋴"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOfWithDotAbove"
+              value="⋵"
+              description="⋵"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOfWithOverbar"
+              value="⋶"
+              description="⋶"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSmallElementOfWithOverbar"
+              value="⋷"
+              description="⋷"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOfWithUnderbar"
+              value="⋸"
+              description="⋸"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolElementOfWithTwoHorizontalStrokes"
+              value="⋹"
+              description="⋹"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContainsWithLongHorizontalStroke"
+              value="⋺"
+              description="⋺"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContainsWithVerticalBarAtEndOfHorizontalStroke"
+              value="⋻"
+              description="⋻"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSmallContainsWithVerticalBarAtEndOfHorizontalStroke"
+              value="⋼"
+              description="⋼"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolContainsWithOverbar"
+              value="⋽"
+              description="⋽"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolSmallContainsWithOverbar"
+              value="⋾"
+              description="⋾"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolZNotationBagMembership"
+              value="⋿"
+              description="⋿"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolNatural"
+              value="ℕ"
+              description="ℕ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolInteger"
+              value="ℤ"
+              description="ℤ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRational"
+              value="ℚ"
+              description="ℚ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolReal"
+              value="ℝ"
+              description="ℝ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolComplex"
+              value="ℂ"
+              description="ℂ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftCeiling"
+              value="⌈"
+              description="⌈"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightCeiling"
+              value="⌉"
+              description="⌉"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftFloor"
+              value="⌊"
+              description="⌊"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightFloor"
+              value="⌋"
+              description="⌋"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+</templateSet>
