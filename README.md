@@ -38,3 +38,19 @@ Inject lorem ipsum
 <div align="center">
     <img src="docs/example_3.png" alt="example_3">
 </div>
+
+## Build
+
+### Run plugin in debug mode
+
+Linux/MacOS
+
+```bash
+./gradlew runIde --debug-jvm
+```
+
+Windows
+
+```bash
+.\gradlew.bat runIde --debug-jvm
+```

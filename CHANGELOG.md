@@ -15,6 +15,11 @@
 ### Removed
 - 
 
+## [1.21.0]
+### Added
+- Migrated from javafaker to datafaker
+- Changed description from name to value
+
 ## [1.20.0]
 ### Added
 - Compatibility with 2026.2

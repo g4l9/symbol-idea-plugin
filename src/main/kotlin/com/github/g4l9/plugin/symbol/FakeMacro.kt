@@ -1,7 +1,7 @@
 package com.github.g4l9.plugin.symbol
 
-import com.github.javafaker.Faker
 import com.intellij.codeInsight.template.*
+import net.datafaker.Faker
 
 class FakeMacro : Macro() {
 
@@ -9,7 +9,7 @@ class FakeMacro : Macro() {
 
     override fun getPresentableName(): String = "FakeMacro"
 
-    override fun calculateResult(params: Array<Expression>, context: ExpressionContext): Result? {
+    override fun calculateResult(params: Array<Expression>, context: ExpressionContext): Result {
         if (params.size != 1) return TextResult("")
 
         val functionResult = params[0].calculateResult(context) as? TextResult ?: return TextResult("")
@@ -19,10 +19,14 @@ class FakeMacro : Macro() {
         if (functions.size < 2) return TextResult("")
 
         try {
-            val firstMethod = clazz.getDeclaredMethod(functions[0])
+            val methodName = functions[0]
+            val firstMethod = clazz.getMethod(methodName)
+
             val innerObject = firstMethod.invoke(faker)
 
-            val secondMethod = innerObject.javaClass.getDeclaredMethod(functions[1])
+            val subMethodName = functions[1]
+            val secondMethod = innerObject.javaClass.getMethod(subMethodName)
+
             val randomValue = secondMethod.invoke(innerObject).toString()
 
             return TextResult(randomValue)
@@ -32,7 +36,7 @@ class FakeMacro : Macro() {
     }
 
     companion object {
-        private val faker = Faker.instance()
+        private val faker = Faker()
         private val clazz = faker.javaClass
     }
 }
