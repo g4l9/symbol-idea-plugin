@@ -1,7 +1,7 @@
 <templateSet group="Symbol">
     <template name="le"
               value="≤"
-              description="le"
+              description="≤"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -10,7 +10,7 @@
     </template>
     <template name="ge"
               value="≥"
-              description="ge"
+              description="≥"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -19,7 +19,7 @@
     </template>
     <template name="equiv"
               value="≡"
-              description="equiv"
+              description="≡"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -28,7 +28,7 @@
     </template>
     <template name="subset"
               value="⊂"
-              description="subset"
+              description="⊂"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -37,7 +37,7 @@
     </template>
     <template name="supset"
               value="⊃"
-              description="supset"
+              description="⊃"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -46,7 +46,7 @@
     </template>
     <template name="approx"
               value="≈"
-              description="approx"
+              description="≈"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -55,7 +55,7 @@
     </template>
     <template name="subseteq"
               value="⊆"
-              description="subseteq"
+              description="⊆"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -64,7 +64,7 @@
     </template>
     <template name="supseteq"
               value="⊇"
-              description="supseteq"
+              description="⊇"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -73,7 +73,7 @@
     </template>
     <template name="in"
               value="∈"
-              description="in"
+              description="∈"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -82,7 +82,7 @@
     </template>
     <template name="pm"
               value="±"
-              description="pm"
+              description="±"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -91,7 +91,7 @@
     </template>
     <template name="mp"
               value="∓"
-              description="mp"
+              description="∓"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -100,7 +100,7 @@
     </template>
     <template name="cdot"
               value="·"
-              description="cdot"
+              description="·"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -109,7 +109,7 @@
     </template>
     <template name="div"
               value="÷"
-              description="div"
+              description="÷"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -118,7 +118,7 @@
     </template>
     <template name="times"
               value="×"
-              description="times"
+              description="×"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -127,7 +127,7 @@
     </template>
     <template name="cup"
               value="∪"
-              description="cup"
+              description="∪"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -136,7 +136,7 @@
     </template>
     <template name="cap"
               value="∩"
-              description="cap"
+              description="∩"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -145,7 +145,7 @@
     </template>
     <template name="sqcup"
               value="t"
-              description="sqcup"
+              description="t"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -154,7 +154,7 @@
     </template>
     <template name="sqcap"
               value="u"
-              description="sqcap"
+              description="u"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -163,7 +163,7 @@
     </template>
     <template name="circ"
               value="◦"
-              description="circ"
+              description="◦"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -172,7 +172,7 @@
     </template>
     <template name="vee"
               value="∨"
-              description="vee"
+              description="∨"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -181,7 +181,7 @@
     </template>
     <template name="wedge"
               value="∧"
-              description="wedge"
+              description="∧"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -190,7 +190,7 @@
     </template>
     <template name="bullet"
               value="•"
-              description="bullet"
+              description="•"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -199,7 +199,7 @@
     </template>
     <template name="oplus"
               value="⊕"
-              description="oplus"
+              description="⊕"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -208,7 +208,7 @@
     </template>
     <template name="otimes"
               value="⊗"
-              description="otimes"
+              description="⊗"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -217,7 +217,7 @@
     </template>
     <template name="dagger"
               value="†"
-              description="dagger"
+              description="†"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -226,7 +226,7 @@
     </template>
     <template name="ddagger"
               value="‡"
-              description="ddagger"
+              description="‡"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -235,7 +235,7 @@
     </template>
     <template name="leftarrow"
               value="←"
-              description="leftarrow"
+              description="←"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -244,7 +244,7 @@
     </template>
     <template name="rightarrow"
               value="→"
-              description="rightarrow"
+              description="→"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -253,7 +253,7 @@
     </template>
     <template name="downarrow"
               value="↓"
-              description="downarrow"
+              description="↓"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -262,7 +262,7 @@
     </template>
     <template name="uparrow"
               value="↑"
-              description="uparrow"
+              description="↑"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -271,7 +271,7 @@
     </template>
     <template name="leftrightarrow"
               value="↔"
-              description="leftrightarrow"
+              description="↔"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -280,7 +280,7 @@
     </template>
     <template name="Leftarrow"
               value="⇐"
-              description="Leftarrow"
+              description="⇐"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -289,7 +289,7 @@
     </template>
     <template name="Uparrow"
               value="⇑"
-              description="Uparrow"
+              description="⇑"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -298,7 +298,7 @@
     </template>
     <template name="Rightarrow"
               value="⇒"
-              description="Rightarrow"
+              description="⇒"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -307,7 +307,7 @@
     </template>
     <template name="Downarrow"
               value="⇓"
-              description="Downarrow"
+              description="⇓"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -316,7 +316,7 @@
     </template>
     <template name="Leftrightarrow"
               value="⇔"
-              description="Leftrightarrow"
+              description="⇔"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -325,7 +325,7 @@
     </template>
     <template name="aleph"
               value="ℵ"
-              description="aleph"
+              description="ℵ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -334,7 +334,7 @@
     </template>
     <template name="forall"
               value="∀"
-              description="forall"
+              description="∀"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -343,7 +343,7 @@
     </template>
     <template name="exists"
               value="∃"
-              description="exists"
+              description="∃"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -352,7 +352,7 @@
     </template>
     <template name="emptyset"
               value="∅"
-              description="emptyset"
+              description="∅"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -361,7 +361,7 @@
     </template>
     <template name="infty"
               value="∞"
-              description="infty"
+              description="∞"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -370,7 +370,7 @@
     </template>
     <template name="wp"
               value="℘"
-              description="wp"
+              description="℘"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -379,7 +379,7 @@
     </template>
     <template name="bot"
               value="⊥"
-              description="bot"
+              description="⊥"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -388,7 +388,7 @@
     </template>
     <template name="top"
               value="⊤"
-              description="top"
+              description="⊤"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -397,7 +397,7 @@
     </template>
     <template name="nabla"
               value="∇"
-              description="nabla"
+              description="∇"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -406,7 +406,7 @@
     </template>
     <template name="partial"
               value="∂"
-              description="partial"
+              description="∂"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -415,7 +415,7 @@
     </template>
     <template name="SSS"
               value="§"
-              description="SSS"
+              description="§"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -424,7 +424,7 @@
     </template>
     <template name="PPP"
               value="¶"
-              description="PPP"
+              description="¶"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -433,7 +433,7 @@
     </template>
     <template name="pound"
               value="£"
-              description="pound"
+              description="£"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -442,7 +442,7 @@
     </template>
     <template name="diamondsuit"
               value="♦"
-              description="diamondsuit"
+              description="♦"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -451,7 +451,7 @@
     </template>
     <template name="heartsuit"
               value="♥"
-              description="heartsuit"
+              description="♥"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -460,7 +460,7 @@
     </template>
     <template name="clubsuit"
               value="♣"
-              description="clubsuit"
+              description="♣"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -469,7 +469,7 @@
     </template>
     <template name="spadesuit"
               value="♠"
-              description="spadesuit"
+              description="♠"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -478,7 +478,7 @@
     </template>
     <template name="remove"
               value="|-|"
-              description="remove"
+              description="|-|"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -487,7 +487,7 @@
     </template>
     <template name="combine"
               value="|+|"
-              description="combine"
+              description="|+|"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -496,7 +496,7 @@
     </template>
     <template name="combineK"
               value="&lt;+&gt;"
-              description="combineK"
+              description="&lt;+&gt;"
               toReformat="false"
               toShortenFQNames="false">
         <context>

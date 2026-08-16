@@ -1,7 +1,7 @@
 <templateSet group="SymbolGreek">
     <template name="Alpha"
               value="Α"
-              description="Alpha"
+              description="Α"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -10,7 +10,7 @@
     </template>
     <template name="Beta"
               value="Β"
-              description="Beta"
+              description="Β"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -19,7 +19,7 @@
     </template>
     <template name="Gamma"
               value="Γ"
-              description="Gamma"
+              description="Γ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -28,7 +28,7 @@
     </template>
     <template name="Delta"
               value="Δ"
-              description="Delta"
+              description="Δ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -37,7 +37,7 @@
     </template>
     <template name="Epsilon"
               value="Ε"
-              description="Epsilon"
+              description="Ε"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -46,7 +46,7 @@
     </template>
     <template name="Zeta"
               value="Ζ"
-              description="Zeta"
+              description="Ζ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -55,7 +55,7 @@
     </template>
     <template name="Eta"
               value="Η"
-              description="Eta"
+              description="Η"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -64,7 +64,7 @@
     </template>
     <template name="Theta"
               value="Θ"
-              description="Theta"
+              description="Θ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -73,7 +73,7 @@
     </template>
     <template name="Iota"
               value="Ι"
-              description="Iota"
+              description="Ι"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -82,7 +82,7 @@
     </template>
     <template name="Kappa"
               value="Κ"
-              description="Kappa"
+              description="Κ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -91,7 +91,7 @@
     </template>
     <template name="Lambda"
               value="Λ"
-              description="Lambda"
+              description="Λ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -100,7 +100,7 @@
     </template>
     <template name="Mu"
               value="Μ"
-              description="Mu"
+              description="Μ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -109,7 +109,7 @@
     </template>
     <template name="Nu"
               value="Ν"
-              description="Nu"
+              description="Ν"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -118,7 +118,7 @@
     </template>
     <template name="Xi"
               value="Ξ"
-              description="Xi"
+              description="Ξ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -127,7 +127,7 @@
     </template>
     <template name="Omicron"
               value="Ο"
-              description="Omicron"
+              description="Ο"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -136,7 +136,7 @@
     </template>
     <template name="Pi"
               value="Π"
-              description="Pi"
+              description="Π"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -145,7 +145,7 @@
     </template>
     <template name="Rho"
               value="Ρ"
-              description="Rho"
+              description="Ρ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -154,7 +154,7 @@
     </template>
     <template name="Sigma"
               value="Σ"
-              description="Sigma"
+              description="Σ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -163,7 +163,7 @@
     </template>
     <template name="Tau"
               value="Τ"
-              description="Tau"
+              description="Τ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -172,7 +172,7 @@
     </template>
     <template name="Upsilon"
               value="Υ"
-              description="Upsilon"
+              description="Υ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -181,7 +181,7 @@
     </template>
     <template name="Phi"
               value="Φ"
-              description="Phi"
+              description="Φ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -190,7 +190,7 @@
     </template>
     <template name="Chi"
               value="Χ"
-              description="Chi"
+              description="Χ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -199,7 +199,7 @@
     </template>
     <template name="Psi"
               value="Ψ"
-              description="Psi"
+              description="Ψ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -208,7 +208,7 @@
     </template>
     <template name="Omega"
               value="Ω"
-              description="Omega"
+              description="Ω"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -217,7 +217,7 @@
     </template>
     <template name="alpha"
               value="α"
-              description="alpha"
+              description="α"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -226,7 +226,7 @@
     </template>
     <template name="beta"
               value="β"
-              description="beta"
+              description="β"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -235,7 +235,7 @@
     </template>
     <template name="gamma"
               value="γ"
-              description="gamma"
+              description="γ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -244,7 +244,7 @@
     </template>
     <template name="delta"
               value="δ"
-              description="delta"
+              description="δ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -253,7 +253,7 @@
     </template>
     <template name="epsilon"
               value="ε"
-              description="epsilon"
+              description="ε"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -262,7 +262,7 @@
     </template>
     <template name="zeta"
               value="ζ"
-              description="zeta"
+              description="ζ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -271,7 +271,7 @@
     </template>
     <template name="eta"
               value="η"
-              description="eta"
+              description="η"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -280,7 +280,7 @@
     </template>
     <template name="theta"
               value="θ"
-              description="theta"
+              description="θ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -289,7 +289,7 @@
     </template>
     <template name="iota"
               value="ι"
-              description="iota"
+              description="ι"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -298,7 +298,7 @@
     </template>
     <template name="kappa"
               value="κ"
-              description="kappa"
+              description="κ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -307,7 +307,7 @@
     </template>
     <template name="lambda"
               value="λ"
-              description="lambda"
+              description="λ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -316,7 +316,7 @@
     </template>
     <template name="mu"
               value="μ"
-              description="mu"
+              description="μ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -325,7 +325,7 @@
     </template>
     <template name="nu"
               value="ν"
-              description="nu"
+              description="ν"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -334,7 +334,7 @@
     </template>
     <template name="xi"
               value="ξ"
-              description="xi"
+              description="ξ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -343,7 +343,7 @@
     </template>
     <template name="omicron"
               value="ο"
-              description="omicron"
+              description="ο"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -352,7 +352,7 @@
     </template>
     <template name="pi"
               value="π"
-              description="pi"
+              description="π"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -361,7 +361,7 @@
     </template>
     <template name="rho"
               value="ρ"
-              description="rho"
+              description="ρ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -370,7 +370,7 @@
     </template>
     <template name="sigmaf"
               value="ς"
-              description="sigmaf"
+              description="ς"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -379,7 +379,7 @@
     </template>
     <template name="sigma"
               value="σ"
-              description="sigma"
+              description="σ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -388,7 +388,7 @@
     </template>
     <template name="tau"
               value="τ"
-              description="tau"
+              description="τ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -397,7 +397,7 @@
     </template>
     <template name="upsilon"
               value="υ"
-              description="upsilon"
+              description="υ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -406,7 +406,7 @@
     </template>
     <template name="phi"
               value="φ"
-              description="phi"
+              description="φ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -415,7 +415,7 @@
     </template>
     <template name="chi"
               value="χ"
-              description="chi"
+              description="χ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -424,7 +424,7 @@
     </template>
     <template name="psi"
               value="ψ"
-              description="psi"
+              description="ψ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -433,7 +433,7 @@
     </template>
     <template name="omega"
               value="ω"
-              description="omega"
+              description="ω"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -442,7 +442,7 @@
     </template>
     <template name="thetasym"
               value="ϑ"
-              description="thetasym"
+              description="ϑ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -451,7 +451,7 @@
     </template>
     <template name="upsih"
               value="ϒ"
-              description="upsih"
+              description="ϒ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -460,7 +460,7 @@
     </template>
     <template name="piv"
               value="ϖ"
-              description="piv"
+              description="ϖ"
               toReformat="false"
               toShortenFQNames="false">
         <context>
