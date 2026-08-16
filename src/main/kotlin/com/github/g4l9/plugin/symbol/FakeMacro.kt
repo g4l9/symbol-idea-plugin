@@ -10,33 +10,40 @@ class FakeMacro : Macro() {
     override fun getPresentableName(): String = "FakeMacro"
 
     override fun calculateResult(params: Array<Expression>, context: ExpressionContext): Result {
-        if (params.size != 1) return TextResult("")
+        if (params.size != 1) {
+            return emptyText
+        }
 
-        val functionResult = params[0].calculateResult(context) as? TextResult ?: return TextResult("")
-        val function = functionResult.text
+        val firstParam = params[0]
+        val calculatedResult = firstParam.calculateResult(context)
+        val textResult = calculatedResult as? TextResult ?: emptyText
+        val methodPathTxt = textResult.text
 
-        val functions = function.split(".").drop(1) // skip first part if needed
-        if (functions.size < 2) return TextResult("")
+        val methodPath = methodPathTxt.split(".").drop(1)
+        if (methodPath.size < 2) {
+            return emptyText
+        }
 
         try {
-            val methodName = functions[0]
-            val firstMethod = clazz.getMethod(methodName)
+            val firstMethodName = methodPath[0]
+            val firstMethod = clazz.getMethod(firstMethodName)
 
             val innerObject = firstMethod.invoke(faker)
 
-            val subMethodName = functions[1]
-            val secondMethod = innerObject.javaClass.getMethod(subMethodName)
+            val secondMethodName = methodPath[1]
+            val secondMethod = innerObject.javaClass.getMethod(secondMethodName)
 
             val randomValue = secondMethod.invoke(innerObject).toString()
 
             return TextResult(randomValue)
         } catch (_: Exception) {
-            return TextResult("")
+            return emptyText
         }
     }
 
     companion object {
         private val faker = Faker()
         private val clazz = faker.javaClass
+        private val emptyText = TextResult("")
     }
 }
