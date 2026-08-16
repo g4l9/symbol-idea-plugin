@@ -17,6 +17,7 @@
 
 ## [1.21.0]
 ### Added
+- 2026.2.1
 - Migrated from javafaker to datafaker
 - Changed description from name to value
 
