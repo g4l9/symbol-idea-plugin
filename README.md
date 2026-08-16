@@ -11,6 +11,12 @@
   <img src="docs/logo.svg" width="200" height="200" alt="logo">
 </div>
 
+## Usage
+
+<div align="center">
+  <img src="docs/usage.gif" alt="usage">
+</div>
+
 ## Plugin features
 
 Inject symbols
