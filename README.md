@@ -6,4 +6,7 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/g4l9/symbol-idea-plugin.svg)](https://github.com/g4l9/symbol-idea-plugin/issues)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/g4l9/symbol-idea-plugin)
 
-![Logo](docs/logo.svg)
+
+<div align="center">
+  <img src="docs/logo.svg" width="200" height="200" alt="logo">
+</div>
