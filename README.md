@@ -1,4 +1,4 @@
-# Spec &amp; Math symbols 
+# Spec &amp; Math symbols
 
 [![Version](https://img.shields.io/jetbrains/plugin/v/io.galagutskiy.symbol-idea-plugin)](https://plugins.jetbrains.com/plugin/14267-spec-and-math-symbols)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/io.galagutskiy.symbol-idea-plugin)](https://plugins.jetbrains.com/plugin/14267-spec-and-math-symbols)
@@ -9,4 +9,26 @@
 
 <div align="center">
   <img src="docs/logo.svg" width="200" height="200" alt="logo">
+</div>
+
+## Plugin features
+
+Inject symbols
+
+You can find all available auto-complete symbols in the [table](SYMBOLS.md)
+
+<div align="center">
+    <img src="docs/example_1.png" alt="example_1">
+</div>
+
+Inject random value
+
+<div align="center">
+    <img src="docs/example_2.png" alt="example_2">
+</div>
+
+Inject lorem ipsum
+
+<div align="center">
+    <img src="docs/example_3.png" alt="example_3">
 </div>
