@@ -41,6 +41,18 @@ Inject lorem ipsum
 
 ## Build
 
+### Build zip plugin
+
+```bash
+./gradlew buildPlugin
+```
+
+Windows
+
+```bash
+.\gradlew.bat buildPlugin
+```
+
 ### Run plugin in debug mode
 
 Linux/MacOS
